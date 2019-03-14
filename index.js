@@ -17,8 +17,7 @@ function deepestChild()
   var grand = document.querySelector('#grand-node');
   var divChain = grand.children[0].children[0].children[0].children[0];
   
-  return divChain;
-  
+  return divChain;  // for some reason I thought it wanted the innerHTML value instead of the child
 }
 
 function increaseRankBy(n)
