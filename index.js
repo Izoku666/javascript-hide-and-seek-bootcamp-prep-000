@@ -6,7 +6,7 @@ function getFirstSelector(selector)
 function nestedTarget()
 {
     //return document.querySelector('div#target[0][0][0] div.target')
-    return document.querySelector('#target div.target');
+    return document.querySelector('#nested div.target');
   
 }
 
