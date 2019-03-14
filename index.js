@@ -28,12 +28,12 @@ function increaseRankBy(n)
   
   for(let i = 0; i < firstList.childNodes.length; i++)
   {
-    firstList[i].innerHTML = parseInt(firstList[i].innerHTML) + 1;
+    firstList[i].innerHTML = parseInt(firstList[i].innerHTML) + n;
   }
   
   for(let i = 0; i < secondList.childNodes.length; i++)
   {
-    secondList[i].innerHTML = parseInt(secondList[i].innerHTML) + 1;
+    secondList[i].innerHTML = parseInt(secondList[i].innerHTML) + n;
   }
 }
 
