@@ -23,10 +23,13 @@ function deepestChild()
 function increaseRankBy(n)
 {
   // increases the ranks in the .ranked-list by n
-  var list = document.querySelectorAll('div.ranked-list > li');
+  var list = document.querySelectorAll('div.ranked-list');
   for(let i = 0; i < list.length; i++)
   {
-    list[i].innerHTML = (parseInt(list[i]) + n).toString();
+    //list[i].innerHTML = (parseInt(list[i]) + n).toString();
+    var newLi = list[i].innerHTML;
+    newLi = parseInt(newLi) + n;
+    list[i] = newLi;
   }
   return list;
 
