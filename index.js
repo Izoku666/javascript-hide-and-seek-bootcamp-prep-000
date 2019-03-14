@@ -13,6 +13,7 @@ function nestedTarget()
 function deepestChild()
 {
   // reads the innerHTML of the deepest child
+  return document.querySelector('#grand-node')
 }
 
 function increaseRankBy(n)
