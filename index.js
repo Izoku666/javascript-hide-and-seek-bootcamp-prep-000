@@ -17,6 +17,8 @@ function deepestChild()
   var grand = document.querySelector('#grand-node');
   var divChain = grand.children[0].children[0].children[0].children[0].innerHTML;
   
+  return divChain;
+  
 }
 
 function increaseRankBy(n)
