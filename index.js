@@ -15,7 +15,7 @@ function deepestChild()
   // reads the innerHTML of the deepest child
   //return document.querySelector('#grand-node div div div div').innerHTML;
   var grand = document.querySelector('#grand-node');
-  return grand.querySelectorAll('.target')
+  var divChain = grand.children[0].children[0].children[0].children[0].innerHTML;
   
 }
 
