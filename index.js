@@ -23,6 +23,6 @@ function deepestChild()
 function increaseRankBy(n)
 {
   // increases the ranks in the .ranked-list by n
-  var 
+  var firstList = 
 }
 
